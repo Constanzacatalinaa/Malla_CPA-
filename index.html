@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla CPA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .semestre {
+      background: #2980b9;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+      border-radius: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #3498db;
+      color: white;
+    }
+    td:hover {
+      background-color: #e8f8ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Malla Curricular - Contador Público y Auditor</h1>
+  <div class="semestre">1° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-111</td><td>Fundamentos de la profesión Contabilidad y Tributaria</td><td>Ingreso</td></tr>
+    <tr><td>AUD-112</td><td>Fundamentos de la profesión Auditoría y Gestión</td><td>Ingreso</td></tr>
+    <tr><td>AUD-113</td><td>Introducción a las Matemáticas</td><td>Ingreso</td></tr>
+    <tr><td>AUD-114</td><td>Herramientas para el aprendizaje y comunicación efectiva</td><td>Ingreso</td></tr>
+    <tr><td>IFG-100</td><td>Inglés I</td><td>Ingreso</td></tr>
+  </table>
+
+  <div class="semestre">2° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-121</td><td>Contabilidad</td><td>AUD-111</td></tr>
+    <tr><td>AUD-122</td><td>Derecho Empresarial</td><td>Sin Requisito</td></tr>
+    <tr><td>AUD-123</td><td>Administración I</td><td>AUD-112</td></tr>
+    <tr><td>AUD-124</td><td>Matemáticas I</td><td>AUD-113</td></tr>
+    <tr><td>AUD-125</td><td>Tecnologías de la información</td><td>Sin Requisito</td></tr>
+    <tr><td>IFG-200</td><td>Inglés II</td><td>IFG-100</td></tr>
+  </table>
+
+  <div class="semestre">3° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-211</td><td>Normas Contables I</td><td>AUD-121</td></tr>
+    <tr><td>AUD-212</td><td>Derecho Laboral</td><td>Sin Requisito</td></tr>
+    <tr><td>AUD-213</td><td>Administración II</td><td>AUD-123</td></tr>
+    <tr><td>AUD-214</td><td>Matemáticas II</td><td>AUD-124</td></tr>
+    <tr><td>AUD-215</td><td>Ética y Responsabilidad Social Empresarial</td><td>Sin Requisito</td></tr>
+    <tr><td>IFG-300</td><td>Inglés III</td><td>IFG-200</td></tr>
+  </table>
+
+  <div class="semestre">4° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-221</td><td>Normas Contables II</td><td>AUD-211</td></tr>
+    <tr><td>AUD-222</td><td>Contabilidad de Costos</td><td>AUD-211</td></tr>
+    <tr><td>AUD-223</td><td>Fundamentos de la Economía</td><td>AUD-214</td></tr>
+    <tr><td>AUD-224</td><td>Administración de Personal</td><td>AUD-213</td></tr>
+    <tr><td>AUD-225</td><td>Estadísticas I</td><td>AUD-214</td></tr>
+    <tr><td>AUD-226</td><td>Módulo Integrativo I</td><td>Múltiples Requisitos</td></tr>
+    <tr><td>MFG-114</td><td>Introducción a la Fe</td><td>Sin Requisito</td></tr>
+  </table>
+
+  <div class="semestre">5° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-311</td><td>Normas Contables III</td><td>AUD-221</td></tr>
+    <tr><td>AUD-312</td><td>Contabilidad Gerencial</td><td>AUD-222</td></tr>
+    <tr><td>AUD-313</td><td>Macroeconomía</td><td>AUD-223</td></tr>
+    <tr><td>AUD-314</td><td>Código Tributario</td><td>AUD-111</td></tr>
+    <tr><td>AUD-315</td><td>Estadísticas II</td><td>AUD-225</td></tr>
+    <tr><td>MFG-216</td><td>Ética Cristiana</td><td>Sin Requisito</td></tr>
+    <tr><td>CFG</td><td>Certificación I</td><td>Sin Requisito</td></tr>
+  </table>
+
+  <div class="semestre">6° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-321</td><td>Estados Financieros</td><td>AUD-311</td></tr>
+    <tr><td>AUD-322</td><td>Sistemas de Información I</td><td>AUD-125</td></tr>
+    <tr><td>AUD-323</td><td>Habilidades Directivas</td><td>Sin Requisito</td></tr>
+    <tr><td>AUD-324</td><td>Impuesto al Valor Agregado</td><td>AUD-314</td></tr>
+    <tr><td>AUD-325</td><td>Control Interno</td><td>AUD-112</td></tr>
+    <tr><td>AUD-326</td><td>Metodología de la Investigación</td><td>AUD-226, AUD-315</td></tr>
+    <tr><td>CFG</td><td>Certificación II</td><td>Sin Requisito</td></tr>
+  </table>
+
+  <div class="semestre">7° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-411</td><td>Práctica Temprana</td><td>Hasta 5° semestre + AUD-321, AUD-324</td></tr>
+    <tr><td>AUD-412</td><td>Contabilidad Avanzada</td><td>AUD-321</td></tr>
+    <tr><td>AUD-413</td><td>Cálculo Financiero y Presupuestario</td><td>AUD-214</td></tr>
+    <tr><td>AUD-414</td><td>Renta Empresas</td><td>AUD-324</td></tr>
+    <tr><td>AUD-415</td><td>Auditoría</td><td>AUD-325</td></tr>
+    <tr><td>AUD-416</td><td>Seminario I</td><td>AUD-326</td></tr>
+    <tr><td>CFG</td><td>Certificación III</td><td>Sin Requisito</td></tr>
+  </table>
+
+  <div class="semestre">8° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-421</td><td>Módulo Integrativo II</td><td>Hasta 7° semestre</td></tr>
+    <tr><td>AUD-422</td><td>Sistemas de Información II</td><td>AUD-322</td></tr>
+    <tr><td>AUD-423</td><td>Gestión Financiera</td><td>AUD-413</td></tr>
+    <tr><td>AUD-424</td><td>Renta Personas</td><td>AUD-414</td></tr>
+    <tr><td>AUD-425</td><td>Auditoría a Estados Financieros</td><td>AUD-415</td></tr>
+    <tr><td>AUD-426</td><td>Seminario II</td><td>AUD-416</td></tr>
+  </table>
+
+  <div class="semestre">9° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-511</td><td>Electivo I</td><td>Hasta 8° semestre</td></tr>
+    <tr><td>AUD-512</td><td>Electivo II</td><td>Hasta 8° semestre</td></tr>
+    <tr><td>AUD-513</td><td>Estrategias Financieras</td><td>AUD-423</td></tr>
+    <tr><td>AUD-514</td><td>Auditoría Tributaria</td><td>AUD-424</td></tr>
+    <tr><td>AUD-515</td><td>Análisis de datos</td><td>AUD-422</td></tr>
+    <tr><td>AUD-516</td><td>Control de gestión</td><td>AUD-423</td></tr>
+  </table>
+
+  <div class="semestre">10° Semestre</div>
+  <table>
+    <tr><th>Código</th><th>Asignatura</th><th>Requisito</th></tr>
+    <tr><td>AUD-521</td><td>Práctica Final</td><td>Todo hasta 9° semestre aprobado</td></tr>
+    <tr><td>AUD-522</td><td>Electivo III</td><td>Hasta 8° semestre</td></tr>
+    <tr><td>AUD-523</td><td>Auditoría de Gestión</td><td>AUD-513, AUD-516</td></tr>
+    <tr><td>AUD-524</td><td>Auditoría Informática</td><td>AUD-515</td></tr>
+  </table>
+
+</body>
+</html>
